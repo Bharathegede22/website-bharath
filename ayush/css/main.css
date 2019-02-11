@@ -8,8 +8,8 @@
 /* =================================== */
 @font-face {
     font-family: 'Black Mountage';
-    src: url('/../fonts/BlackMountage-Regular.woff2') format('woff2'),
-        url('/../fonts/BlackMountage-Regular.woff') format('woff');
+    src: url('../fonts/BlackMountage-Regular.woff2') format('woff2'),
+        url('../fonts/BlackMountage-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -85,7 +85,7 @@
   padding: 4rem;
   color: #fff;
 }
-.gallery_product img{ border-radius: 4px;box-shadow: 0px 0px 50px 0px rgba(157, 157, 157, 0.3);}
+.gallery_product img{ width: 100%; border-radius: 4px;box-shadow: 0px 0px 50px 0px rgba(157, 157, 157, 0.3);}
 .single-gallery{ overflow: hidden;height: 300px; margin-right: 10px;}
 .owl-controls{ position: relative !important; top: -300px !important; z-index: 1000;}
 .owl-prev{float: left;}
@@ -144,8 +144,8 @@
     width: 100%;
 }
 
-.gallery_product
-{
+.gallery_product {
+    width: 100%; float: left;
     margin-bottom: 30px;
 }
 
@@ -2426,13 +2426,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 767px) {
+  .gallery_product{ float: left; width: 50%;}
+  .gallery_product img{width: 100%;}
   .dropdown-item {
     text-align: left;
     padding: 0.25rem;
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px){
+  .default-banner h1, .default-title {
+    font-size: 6rem;
+    top: 4%;
+  }
+  .title-sub {
+    font-size: 1rem;
+    margin-top: 4rem;
+    padding: 0 2em;
+  }
+  .dubai-img {
+    margin-top: -52px;
+  background-size: 50%;
+  height: 50px;
+  }
+}
+
+
+
 @media (min-width: 768px) {
+
   .dropdown .dropdown-menu {
     display: block;
     opacity: 0;
@@ -2502,6 +2524,7 @@ h1, h2, h3, h4, h5, h6 {
   .default-banner h1 br {
     display: none;
   }
+  .owl-controls{ display:none;}
 }
 
 @media (max-width: 1199px) {
@@ -2511,8 +2534,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 414px) {
-  .default-banner h1 {
+  .default-banner h1, .default-title {
     font-size: 40px;
+    top: 2%;
+  }
+  .title-sub {
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0 2em;
+  }
+  .dubai-img {
+    margin-top: -26px;
+    background-size: 50%;
+    height: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .down-arrow{display:none;}
+  .default-banner {
+    height: 50vh;
+  }
+  .default-banner video{
+    height: 50vh;
   }
 }
 
@@ -2729,20 +2772,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 
-.gallery-area .owl-controls {
-  position: absolute;
-  left: 90%;
-  top: 89%;
-  display: none;
-}
+
 
 @media (max-width: 1024px) {
-  .gallery-area .owl-controls {
-    position: relative;
+  .navbar-nav {
     text-align: center;
-    left: 0;
-    top: 20px;
-  }
+}
+  .filter-button{ max-width: 8.125rem;}
   .gallery-area .owl-controls .owl-prev, .gallery-area .owl-controls .owl-next {
     display: inline-block;
   }
@@ -2782,6 +2818,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+
   .counter-left {
     text-align: center;
   }
