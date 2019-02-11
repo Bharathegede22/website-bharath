@@ -8,8 +8,8 @@
 /* =================================== */
 @font-face {
     font-family: 'Black Mountage';
-    src: url('./fonts/BlackMountage-Regular.woff2') format('woff2'),
-        url('./fonts/BlackMountage-Regular.woff') format('woff');
+    src: url('ayush/fonts/BlackMountage-Regular.woff2') format('woff2'),
+        url('ayush/fonts/BlackMountage-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
