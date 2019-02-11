@@ -2534,6 +2534,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 414px) {
+  .single-feature{ margin-bottom: 10px;}
+  .why-content {text-align: left !important;}
+  .section-gap { padding: 30px 0;}
+  h1,h2{font-size: 24px;}
   .default-banner h1, .default-title {
     font-size: 40px;
     top: 2%;
@@ -2778,7 +2782,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-nav {
     text-align: center;
 }
-  .filter-button{ max-width: 8.125rem;}
+  .filter-button{ max-width: 8.125rem; margin-bottom: 20px;}
   .gallery-area .owl-controls .owl-prev, .gallery-area .owl-controls .owl-next {
     display: inline-block;
   }
