@@ -26,7 +26,10 @@
 .content-text{
   width: 100%;
 }
-
+.filter-button.active{
+  background: #4CAF50;
+  color: white;
+}
 .not-home-header{
   position: fixed !important;
   top: 0px !important;
@@ -328,7 +331,7 @@
     cursor: pointer;
     margin-right: .0625rem;
 }
-.filter-button:hover{ background-color: #ddd;}
+.filter-button:hover{ background-color: #4CAF50; color: white;}
 .btn-default:active .filter-button:active
 {
     background-color: #42B32F;
