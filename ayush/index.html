@@ -16,10 +16,8 @@
 		<!-- Site Title -->
 		<title>Ayush Holidays: are customer service, loyalty and integrity, communication, quality and responsibility.</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-			<!--
-			CSS
-			============================================= -->
+		<!-- <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> -->
+			<!--============================================= -->
 			<link rel="stylesheet" href="css/linearicons.css">
 			<link rel="stylesheet" href="css/font-awesome.min.css">
 			<link rel="stylesheet" href="css/bootstrap.css">
@@ -46,15 +44,24 @@
 							  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
 							    <ul class="navbar-nav">
 									<li ><a class="active" href="index.html">Home</a></li>
-									<li><a href="about.html">About</a></li>
+									<li class="dropdown menu-dropdown">
+											<a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+												About
+											</a>
+											<div class="dropdown-menu">
+												<a class="dropdown-item" href="why.html">Why Ayush?</a>
+												<a class="dropdown-item " href="core.html">Core Values</a>
+												<a class="dropdown-item" href="about.html">About Us</a>
+											</div>
+										</li>
 									<!-- Dropdown -->
 								    <li class="dropdown menu-dropdown">
 								      <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
 								        Holidays
 								      </a>
 								      <div class="dropdown-menu">
-								        <a class="dropdown-item" href="holidays.html">Internatinal</a>
-								        <a class="dropdown-item" href="holidays.html">Domestic</a>
+								        <a class="dropdown-item holiDay" href="holidays.html">Internatinal</a>
+								        <a class="dropdown-item domEstic" data-id="domestic" href="holidays.html">Domestic</a>
 								      </div>
 								    </li> 
 									<li><a href="#secvice">Services</a></li>
@@ -87,180 +94,7 @@
 		 </section>
 
 
-
-
-				<!-- start about core values -->
-				<section class="core-area section-gap" id="why">
-				  <div class="container">
-				    <div class="row d-flex justify-content-center">
-				      <div class="menu-content pb-60 col-lg-8">
-				        <div class="title text-center">
-				          <h1 class="mb-10">Why Choose Ayush Holidays</h1>
-				          <p>Who are in extremely love with Us</p>
-				        </div>
-				      </div>
-				    </div>
-				    <div class="row d-flex align-items-center">
-				      <div class="counter-left col-lg-3 col-md-3">
-				        <div class="single-facts">
-				          <h2 class="counter">5962</h2>
-				          <p>HAPPY TRAVELLERS</p>
-				        </div>
-				        <div class="single-facts">
-				          <h2 class="counter">100</h2>
-				          <p>EMPLOYEES</p>
-				        </div>
-				        <div class="single-facts">
-				          <h2 class="counter">15</h2>
-				          <p>YEARS OF EXPERIENCE</p>
-				        </div>
-				        <div class="single-facts">
-				          <h2 class="counter">32</h2>
-				          <p>LOCATIONS</p>
-				        </div>
-				      </div>
-				      <div class="faq-content why-content col-lg-9 col-md-9">
-				        <div class="single-faq">
-				          <span class="lnr lnr-checkmark-circle"></span>
-				          <p>
-				            Vast knowledge about destinations &  custom-made programs to meet.
-				          </p>
-				        </div>
-				        <div class="single-faq">
-				          <span class="lnr lnr-checkmark-circle"></span>
-				          <p>
-				            We always maintain transparency in communication and commitments and we don’t keep any hidden cost within the packages.
-				          </p>
-				        </div>
-				        <div class="single-faq">
-				          <span class="lnr lnr-checkmark-circle"></span>
-				          <p>
-				            We care our customers by attending them whenever and wherever required fulfilling all their needs from arrival to departure.
-				          </p>
-				        </div>
-				        <div class="single-faq">
-				          <span class="lnr lnr-checkmark-circle"></span>
-				          <p>
-				            Ayush Holidays offer personal, professional & friendly service.
-				          </p>
-				        </div>
-				        <div class="single-faq">
-				          <span class="lnr lnr-checkmark-circle"></span>
-				          <p>
-				            We learn from our customer feedbacks, address complains and that’s how we keep fine tuning ourselves / service approaches
-				          </p>
-				        </div>
-				        </div>
-				    </div>
-				  </div>
-				</section>
-				<!-- End about core values -->
-
-				<!-- Start about Area -->
-				<section class="section-gap info-area" id="about">
-				  <div class="container">
-				    <div class="row d-flex justify-content-center">
-				      <div class="menu-content pb-40 col-lg-8">
-				        <div class="title text-center">
-				          <h1 class="mb-10">Core Values of the Company</h1>
-				          <p>Lorem Ipsum is simply dummy text of the printing</p>
-				        </div>
-				      </div>
-				    </div>
-				    <div class="single-info row mt-40">
-				      <div class="col-lg-6 col-md-12 mt-120 text-center no-padding info-left">
-				        <div class="info-thumb">
-				          <img src="img/about-img.jpg" class="img-fluid" alt="">
-				        </div>
-				      </div>
-				      <div class="col-lg-6 col-md-12 no-padding info-rigth">
-				        <div class="info-content">
-				          <h2 class="pb-30">The core values<br>
-				           of Ayush Holidays are
-				           customer service, loyalty</h2>
-				          <p>
-				            and integrity, communication, quality and responsibility.
-				          </p>
-				          <br>
-				          <p>
-				            We offer the same level of service to all our clients. We comply with strict
-				          </p>
-				          <br>
-				          <p>
-				              Principles of professional conduct and ethics.
-				          </p>
-				          <p>We take a proactive approach to solve problems by making the right decisions, yet for unforeseen events, we give immediate attention and take control over the problem by giving of most appropriate solution.
-				          </p>
-				          <p>
-				            We would extend our highest respect and honesty to all our customers and remain accountable for any of their inconvenience arises from our side.
-				          </p>
-
-				          </div>
-				      </div>
-				    </div>
-				  </div>
-				</section>
-				<!-- End about Area -->
-
-				<!-- Start project Area -->
-				<section class="testimonial-area section-gap" id="project">
-					<div class="container">
-						<div class="row d-flex justify-content-center">
-							<div class="menu-content pb-30 col-lg-8">
-								<div class="title text-center">
-									<h1 class="mb-10 text-white">What Our Client Says</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore  et dolore magna aliqua.</p>
-								</div>
-							</div>
-						</div>
-						<div class="row justify-content-center d-flex">
-							<div class="active-works-carousel mt-40 col-lg-8">
-								<div class="item">
-									<div class="item-testimonial">
-										<p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-									</div>
-									<div class="caption text-center mt-20">
-										<h6 class="text-uppercase text-white">Manoj Kumar</h6>
-										<p>Bengaluru, India</p>
-									</div>
-								</div>
-								<div class="item">
-									<div class="item-testimonial">
-										<p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-									</div>
-									<div class="caption text-center mt-20">
-										<h6 class="text-uppercase text-white">Alex Carrey</h6>
-										<p>Cape town, South Africa</p>
-									</div>
-								</div>
-								<div class="item">
-									<div class="item-testimonial">
-										<p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-									</div>
-									<div class="caption text-center mt-20">
-										<h6 class="text-uppercase text-white">Salim Sheik</h6>
-										<p>Abu Dhabi, UAE</p>
-									</div>
-								</div>
-								<div class="item">
-									<div class="item-testimonial">
-										<p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-									</div>
-									<div class="caption text-center mt-20">
-										<h6 class="text-uppercase text-white">Bharath Hegde</h6>
-										<p>Bengaluru, India</p>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-					</div>
-				</section>
-				<!-- End project Area -->
-
-
-			<!-- Start feature Area -->
+		 <!-- Start feature Area -->
 			<section class="info-area section-gap" id="secvice">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
@@ -342,6 +176,70 @@
 				</div>
 			</section>
 			<!-- End feature Area -->
+
+				
+
+				
+
+				<!-- Start project Area -->
+				<section class="testimonial-area section-gap" id="project">
+					<div class="container">
+						<div class="row d-flex justify-content-center">
+							<div class="menu-content pb-30 col-lg-8">
+								<div class="title text-center">
+									<h1 class="mb-10 text-white">What Our Client Says</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore  et dolore magna aliqua.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row justify-content-center d-flex">
+							<div class="active-works-carousel mt-40 col-lg-8">
+								<div class="item">
+									<div class="item-testimonial">
+										<p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div>
+									<div class="caption text-center mt-20">
+										<h6 class="text-uppercase text-white">Manoj Kumar</h6>
+										<p>Bengaluru, India</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-testimonial">
+										<p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div>
+									<div class="caption text-center mt-20">
+										<h6 class="text-uppercase text-white">Alex Carrey</h6>
+										<p>Cape town, South Africa</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-testimonial">
+										<p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div>
+									<div class="caption text-center mt-20">
+										<h6 class="text-uppercase text-white">Salim Sheik</h6>
+										<p>Abu Dhabi, UAE</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-testimonial">
+										<p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div>
+									<div class="caption text-center mt-20">
+										<h6 class="text-uppercase text-white">Bharath Hegde</h6>
+										<p>Bengaluru, India</p>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</section>
+				<!-- End project Area -->
+
+
+			
 
 
 
@@ -496,8 +394,9 @@
 			<!-- End footer Area -->
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+			<script src="js/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/vendor/handlebars-v4.1.2.js"></script>
 			<script src="js/jquery.ajaxchimp.min.js"></script>
 			<script src="js/jquery.magnific-popup.min.js"></script>
 			<script src="js/owl.carousel.min.js"></script>
