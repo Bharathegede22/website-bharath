@@ -66,6 +66,93 @@
   margin-bottom: 5px;
   border-radius: 5px;
 }
+@media (min-width: 576px){
+  .modal-dialog {
+    max-width: 980px;
+    margin: 30px auto;
+    -webkit-box-shadow: 0px 0px 72px -5px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 0px 72px -5px rgba(0,0,0,0.37);
+    box-shadow: 0px 0px 72px -5px rgba(0,0,0,0.37);
+    background: white;
+    border-radius: 15px;
+  }
+  .modal-backdrop.show{
+    opacity: 0.8;
+  }
+  
+  .modal-header{
+    border: none;
+    background: #007bff;
+    padding-bottom: 1em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .duration{
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .modal-title{
+    color: white;
+  }
+  .modal-header {
+    color: white;
+    font-size: 3rem;
+    position: relative;
+  }
+  .modal-header .place-with{
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .modal-body {
+    background: #fff;
+    margin-top: -2em;
+    border-radius: 15px;
+    padding: 2em;
+  }
+  .modal-content{
+    border: none;
+    border-radius: 15pc;
+  }
+  .modal-footer{
+    border: none;
+  }
+  .card{
+    border: none;
+  }
+}
+.card-header{
+  padding: 0;
+}
+.card-body h4{font-size: 16px;}
+.style-list{
+  list-style-type: inherit;
+    padding-left: 2em;
+}
+.btn-link{
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    color: #007bff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+.close{
+  color: #fff !important;
+  cursor: pointer;
+
+}
+
+
 /*.gallery_product .overlay{
   content: "";
   position: absolute;
@@ -123,6 +210,7 @@
     height: 150%;
     transform: rotate(-5deg);
     z-index: -1;
+    box-shadow: 0 4px 10px rgba(10,34,53,.1);
 }
 .recent_add_property .single_add:hover .properte_content:before {
     background: #1960ed;
@@ -2867,7 +2955,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .testimonial-area{ background-color: #232527;}
-.info-area{background-color: #f9f9ff; }
+.info-area{background-color: #fff; }
+
 .core-area, .gallery-area{ background-color: #fff; }
 .project-area {
   background-color: #fff;
