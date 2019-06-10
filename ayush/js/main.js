@@ -477,15 +477,7 @@ $('.active-blog-slider').owlCarousel({
                     id:"#odisha",
                     description: "The capital city of Odisha, Bhubaneshwar is most famous for its temples (there are over 700, mostly devoted to Lord Shiva) ",
                     price:"259,900" 
-                },
-                {   
-                  filter: "dom",
-                  img: "./img/odisha.jpeg",
-                  location: "APPI",
-                  id:"#odisha",
-                  description: "The capital city of Odisha, Bhubaneshwar is most famous for its temples (there are over 700, mostly devoted to Lord Shiva) ",
-                  price:"259,900" 
-              }
+                }
                 
             ]
 
@@ -495,22 +487,12 @@ $('.active-blog-slider').owlCarousel({
           var small_template = Handlebars.compile(small_source);
           $("#small-content-placeholder").html(small_template(small_data));
 
-        
 
-
+         
         
-          
 
       });
-
       
-            
-      $(".holiDay").click(function() {
-        debugger
-        let ref = window.location.href + 'ref';
-        $( ".Internatinal" ).trigger( "click" );
-
-			});
  });
 
  
