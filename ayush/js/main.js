@@ -345,7 +345,7 @@ $('.active-blog-slider').owlCarousel({
                     filter: "inter",
                     img: "./img/italy.jpeg",
                     location: "ITALY",
-                    id:"#spain",
+                    id:"#italy",
                     description: "Art and architecture in Italy. Italy has given rise to a number of architectural styles, including classical Roman, Renaissance,  ",
                     price:"259,900" 
                 },
