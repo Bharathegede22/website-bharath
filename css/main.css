@@ -36,13 +36,9 @@
 html{
   height: 100%;
 }
-body {
-  min-height: 100%;
-  background: #ccc;
-}
+
 
 body{
-    overflow: hidden;
     background: #1551d6; /* Old browsers */
     background: -moz-linear-gradient(top, #1551d6 0%, #0b296b 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #1551d6 0%,#0b296b 100%); /* Chrome10-25,Safari5.1-6 */
@@ -51,6 +47,8 @@ body{
     background-repeat: no-repeat;
     font-family: 'GilroyLight';
     color: #fff;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .gil-bold{ font-family: 'GilroyExtraBold'; }
@@ -107,6 +105,47 @@ body{
     top: -83px;
     opacity: 0.5;
     transform: rotate(90deg);
+}
+.case-text{
+    font-size: 3rem;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 3em;
+}
+.versus{
+    font-size: 2rem;
+}
+.case-title{
+    font-size: 3rem;
+}
+.analysis-text{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 5.2em;
+    color: #FFEB3B;
+}
+.equal-arrow{
+    margin-top: 6em;
+    font-size: 2em;
+    text-align: center;
+}
+.btn-yellow:hover{
+    background: #FFEB3B;
+    border: 2px #FFEB3B solid;
+    color: #0b2b70;
+}
+.btn-yellow{
+    background: none;
+    border: 2px #FFEB3B solid;
+    color: #FFEB3B;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem 3rem;
+    font-weight: bold;
 }
 #logo{
     position: absolute;
